@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="ro">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>Produse - V-Energy MD</title>
+    <link rel="stylesheet" href="css/style.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Rajdhani:wght@400;600;700&display=swap" rel="stylesheet"/>
+</head>
+<body class="produse-page">
+
+    <header class="navbar">
+        <div class="navbar__logo">
+            <img src="assets/Logo.png" alt="Logo" class="logo-img">
+            <div class="logo-brand-wrap">
+                <span class="logo-separator">|</span>
+                <div class="logo-text-stack">
+                    <span class="logo-text-main">V-ENERGY</span>
+                    <span class="logo-text-sub">MD</span>
+                </div>
+            </div>
+        </div>
+        <nav class="navbar__links">
+  <a href="index.html">ACASĂ</a> <span>—</span>
+  <a href="produse.html">PRODUSE</a> <span>—</span>
+  <a href="despre noi.html">DESPRE NOI</a> <span>—</span>
+  <a href="contact.html">CONTACT</a>
+</nav>
+        <div class="navbar__actions">
+            <button class="icon-btn"><img src="assets/cautare.png" alt="Search" class="green-svg"/></button>
+            <button class="icon-btn"><img src="assets/cos.png" alt="Cart" class="green-svg"/></button>
+            <a href="#" class="btn-connect">CONECTARE</a>
+        </div>
+    </header>
+
+    <section class="hero-produse">
+        <div class="hero-produse-content">
+            <h1>PRODUSE</h1>
+            <p>DESCOPERĂ GAMA NOASTRĂ COMPLETĂ DE SOLUȚII PENTRU ENERGIE REGENERABILĂ</p>
+        </div>
+    </section>
+
+    <div class="shop-container">
+        <aside class="sidebar-sect">
+            <h2 class="filter-main-title">FILTRARE</h2>
+            
+            <div class="filter-group">
+                <h3>CATEGORIE</h3>
+                <label class="checkbox-label"><input type="checkbox"> <span>PANOURI SOLARE</span></label>
+                <label class="checkbox-label"><input type="checkbox"> <span>BATERII SOLARE</span></label>
+                <label class="checkbox-label"><input type="checkbox"> <span>ACCESORII</span></label>
+                <label class="checkbox-label"><input type="checkbox"> <span>INVERTOARE</span></label>
+                <label class="checkbox-label"><input type="checkbox"> <span>MONTARE</span></label>
+            </div>
+
+            <div class="filter-group">
+                <h3>PREȚ</h3>
+                <div class="price-range-inputs">
+                    <input type="number" id="min-price" value="343">
+                    <input type="number" id="max-price" value="8000">
+                </div>
+                <input type="range" id="price-range" min="0" max="10000" value="343" class="slider">
+                <div class="price-limits-text">
+                    <span>0 LEI</span>
+                    <span>10 000 LEI</span>
+                </div>
+            </div>
+
+            <div class="filter-group">
+                <h3>PUTERE (W)</h3>
+                <label class="checkbox-label"><input type="checkbox"> <span>SUB 500W</span></label>
+                <label class="checkbox-label"><input type="checkbox"> <span>500W-1000W</span></label>
+                <label class="checkbox-label"><input type="checkbox"> <span>PESTE 1000W</span></label>
+            </div>
+
+            <div class="filter-group">
+                <h3>BRAND</h3>
+                <label class="checkbox-label"><input type="checkbox"> <span>JINKO SOLAR</span></label>
+                <label class="checkbox-label"><input type="checkbox"> <span>TRINA SOLAR</span></label>
+                <label class="checkbox-label"><input type="checkbox"> <span>CANADIAN SOLAR</span></label>
+            </div>
+            
+            <button class="btn-reset-filt">RESETEAZĂ FILTRELE</button>
+        </aside>
+
+        <main class="main-shop-content">
+            <div class="top-sorting-bar">
+                <div class="sort-button">TOATE CATEGORIILE <span>▼</span></div>
+                <div class="sort-button">PREȚ <span>▼</span></div>
+                <div class="sort-button">PUTERE <span>▼</span></div>
+                <div class="sort-button">BRAND <span>▼</span></div>
+                <div class="sort-button">SORTEAZĂ <span>▼</span></div>
+            </div>
+
+            <p class="results-count">24 PRODUSE GĂSITE</p>
+
+            <div class="products-grid-custom">
+                <div class="product-card-custom">
+                    <div class="p-badge b-best">BEST SELLER</div>
+                    <img src="assets/baterie solara.png" class="p-img">
+                    <h3>BATERII SOLARE</h3>
+                    <p>BATERIILE SOLARE STOCHEAZĂ ENERGIA ELECTRICĂ PRODUSĂ.</p>
+                    <span class="p-price">1299 LEI</span>
+                    <button class="btn-add-custom">ADĂUGĂ ÎN COȘ</button>
+                </div>
+
+                <div class="product-card-custom">
+                    <div class="p-badge b-popular">POPULAR</div>
+                    <img src="assets/Baterii solare1.png" class="p-img">
+                    <h3>BATERII SOLARE</h3>
+                    <p>BATERIILE SOLARE STOCHEAZĂ ENERGIA ELECTRICĂ PRODUSĂ.</p>
+                    <span class="p-price">1699 LEI</span>
+                    <button class="btn-add-custom">ADĂUGĂ ÎN COȘ</button>
+                </div>
+
+                <div class="product-card-custom">
+                    <div class="p-badge b-popular">POPULAR</div>
+                    <img src="assets/invertoare.png" class="p-img">
+                    <h3>INVERTOARE</h3>
+                    <p>INVERTOARELE TRANSFORMĂ CURENTUL CONTINUU ÎN ALTERNATIV.</p>
+                    <span class="p-price">1599 LEI</span>
+                    <button class="btn-add-custom">ADĂUGĂ ÎN COȘ</button>
+                </div>
+
+                <div class="product-card-custom">
+                    <img src="assets/invertoare1.png" class="p-img">
+                    <h3>INVERTOARE HIBRID</h3>
+                    <p>TRANSFORMĂ ENERGIA CU PIERDERI MINIME.</p>
+                    <span class="p-price">499 LEI</span>
+                    <button class="btn-add-custom">ADĂUGĂ ÎN COȘ</button>
+                </div>
+
+                <div class="product-card-custom">
+                    <img src="assets/invertoare2.png" class="p-img">
+                    <h3>INVERTOARE OFF-GRID</h3>
+                    <p>IDEAL PENTRU LOCAȚII IZOLATE FĂRĂ REȚEA.</p>
+                    <span class="p-price">999 LEI</span>
+                    <button class="btn-add-custom">ADĂUGĂ ÎN COȘ</button>
+                </div>
+                
+                <div class="product-card-custom">
+                    <img src="assets/panou solar.png" class="p-img">
+                    <h3>PANOU SOLAR 1100W</h3>
+                    <p>PANOUL SOLAR PRODUCE ENERGIE ELECTRICĂ.</p>
+                    <span class="p-price">2199 LEI</span>
+                    <button class="btn-add-custom">ADĂUGĂ ÎN COȘ</button>
+                </div>
+
+                <div class="product-card-custom">
+                    <img src="assets/panousolar1.png" class="p-img">
+                    <h3>PANOU SOLAR 550W</h3>
+                    <p>PANOUL SOLAR PRODUCE ENERGIE ELECTRICĂ.</p>
+                    <span class="p-price">1299 LEI</span>
+                    <button class="btn-add-custom">ADĂUGĂ ÎN COȘ</button>
+                </div>
+
+                
+                <div class="product-card-custom">
+                    <img src="assets/panousolarnegru.png" class="p-img">
+                    <h3>PANOU SOLAR 410</h3>
+                    <p>PANOUL SOLAR PRODUCE ENERGIE ELECTRICĂ.</p>
+                    <span class="p-price">999 LEI</span>
+                    <button class="btn-add-custom">ADĂUGĂ ÎN COȘ</button>
+                </div>
+
+                <div class="product-card-custom">
+                    <img src="assets/acesorii.png" class="p-img">
+                    <h3>ACCESORII</h3>
+                    <p>ACCESORII PENTRU PANOURI SOLARE INCLUD SUPORTURI ȘI CABLURI.</p>
+                    <span class="p-price">199 LEI</span>
+                    <button class="btn-add-custom">ADĂUGĂ ÎN COȘ</button>
+                </div>
+
+                <div class="product-card-custom">
+                    <img src="assets/lucrator abslabeaza panou.png" class="p-img">
+                    <h3>MONTARE</h3>
+                    <p>MONTAREA PANOURILOR SOLARE NECESITĂ FIXARE ȘI CONECTARE CORECTĂ.</p>
+                    <span class="p-price">499 LEI</span>
+                    <button class="btn-add-custom">ADĂUGĂ ÎN COȘ</button>
+                </div>
+            </div>
+
+            <div class="pagination-container">
+                <div class="page-number active">1</div>
+                <div class="page-number">2</div>
+                <div class="page-number">3</div>
+                <div class="page-next">→</div>
+            </div>
+        </main>
+    </div>
+
+    <footer class="footer">
+    <div class="footer__brand">
+      <div class="footer__logo">
+        <img src="assets/Logo.png" alt="V-Energy" class="footer-logo-img" />
+        <div class="logo-brand-wrap">
+            <span class="logo-separator">|</span>
+            <div class="logo-text-stack">
+                <span class="logo-text-main">V-ENERGY</span>
+                <span class="logo-text-sub">MD</span>
+            </div>
+        </div>
+      </div>
+      <p>CONTRIBUIM LA UN VIITOR SUSTENABIL PRIN SOLUȚII DE ENERGIE REGENERABILĂ DE ÎNCREDERE.</p>
+    </div>
+
+    <div class="footer__col">
+      <h4>LINKURI UTILE</h4>
+      <a href="#">ACASĂ</a>
+      <a href="#">PRODUSE</a>
+      <a href="#">DESPRE NOI</a>
+      <a href="#">BLOG</a>
+      <a href="#">CONTACT</a>
+    </div>
+
+    <div class="footer__col">
+      <h4>SUPORT</h4>
+      <a href="#">LIVRARE ȘI RETUR</a>
+      <a href="#">GARANȚIE</a>
+      <a href="#">ÎNTREBĂRI FRECVENTE</a>
+      <a href="#">CONTACT</a>
+      <a href="#">MESAJ</a>
+    </div>
+
+    <div class="footer__col">
+      <h4>POLITICA</h4>
+      <a href="#">POLITICA DE CONFIDENȚIALITATE</a>
+      <a href="#">POLITICA DE COOKIES</a>
+      <a href="#">TERMENI ȘI CONDIȚII</a>
+      <a href="#">ANPC - SAL</a>
+      <a href="#">ANPC - SOL</a>
+    </div>
+
+    <div class="footer__social">
+      <h4>URMĂREȘTE-NE</h4>
+      <div class="social-links-list">
+        <a href="#"><img src="assets/facebook.png" alt="FB" /> V-ENERGY.MD</a>
+        <a href="#"><img src="assets/instagram.png" alt="IG" /> V-ENERGY.MD</a>
+        <a href="#"><img src="assets/youtube.png" alt="YT" /> V-ENERGY.MD</a>
+        <a href="#"><img src="assets/linken.png" alt="IN" /> V-ENERGY.MD</a>
+      </div>
+    </div>
+  </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
