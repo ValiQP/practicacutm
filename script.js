@@ -1,0 +1,3 @@
+function salut() {
+  alert("Salut!");
+}
